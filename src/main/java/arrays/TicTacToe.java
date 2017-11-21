@@ -104,8 +104,8 @@ public class TicTacToe {
     }
 
     private boolean checkBoard() {
-        return checkMostImportantVerticalPoints()||
-                checkMostImportantHorizontalPoints();
+        return checkMostImportantHorizontalPoints()||
+                checkMostImportantVerticalPoints();
     }
 
     private boolean checkIfDraw() {
